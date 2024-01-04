@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LukasFootwares</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/bg1.jpg" />
+  </head>
+  <body>
+    <!-- Landing or Home section -->
+    <div class="maindiv"></div>
+    <!-- About section -->
+    <div class="about">
+      <div class="about-img">
+        <img src="images/sh5.jpg" alt="about image" />
+      </div>
+      <div class="about-txt">
+        <h1>Who We Are</h1>
+        <p>
+          LukasFootwares is a renowed shoe-maing companay known for its
+          craftsmanship, creating stylish and comfortable footware that caters
+          to the unique needs and preferences of individauls from all walks of
+          life. with a rich heritage in craftsmanship to producing high-quality
+          footaware that combines comforts, style and durabilty, ensuring
+          customers always put theirs best foot forward
+        </p>
+      </div>
+    </div>
+    <!-- Products -->
+    <div class="products">
+      <div>
+        <div>
+          <img src="images/sh1.jpg" alt="sh1" />
+        </div>
+
+        <div>
+          <img src="images/sh2.jpg" alt="sh2" />
+        </div>
+
+        <div>
+          <img src="images/sh3.jpg" alt="sh1" />
+        </div>
+        <div>
+          <img src="images/sh4.jpg" alt="sh1" />
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var submitted = false;
+    </script>
+    <iframe
+      name="hidden_iframe"
+      id="hidden_iframe"
+      style="display: none"
+      onload="if(submitted){window.location='#';}"
+    ></iframe>
+
+    <!-- Contact -->
+    <div class="contact">
+      <h1>Talk to us</h1>
+      <form
+        action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSd1PhzQHvXN5ULZdFPQvx6vsNPFowU0KelDxbRMNUpKH1j5jw/formResponse"
+        class="form-contact"
+        method="post"
+        target="hidden_iframe"
+        onsubmit="submitted=true"
+      >
+        <div class="contact-txt">
+          <input type="text" placeholder="Name" name="entry.920073711" /> <br />
+          <input type="text" placeholder="Email" name="entry.1881046964" />
+          <br />
+          <input type="text" placeholder="Message" name="entry.424594707" />
+        </div>
+        <div>
+          <button type="submit" class="btn">Submit</button>
+        </div>
+      </form>
+    </div>
+    <!-- footer -->
+    <div>
+      <p class="footer">(c) 2023 All Rigth Reserved</p>
+    </div>
+  </body>
+</html>
